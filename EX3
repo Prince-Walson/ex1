@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Karunya Institute of Technology and Sciences</h1>
+
+    <div class="banner"></div>
+
+    <div class="info">
+        <h3>About us</h3>
+        <p>Karunya Institute of Technology and Sciences, was founded with the noble vision to raise professionals and leaders of high academic calibre and unblemished character, nurtured with a strong motivation and commitment to serve humanity. The institution is the fulfillment of the vision of its founders Late Dr. D. G. S. Dhinakaran and the present Chancellor Dr. Paul Dhinakaran. Established in 1986 as an Engineering College, it was granted an autonomous status in 1999 and declared Deemed-to-be University by the University Grants Commission (UGC) in recognition of its academic excellence by the Ministry of Human Resources Development under section 3 of the UGC Act, 1956 vide notification no 9-3-2000-U3 dated 23.6.2004 of the Government of India. Accredited by NAAC, the institution offers a wide array of Bachelors, Masters and Doctoral Degree programmes in various branches of Engineering, Biotechnology, Food processing and Agricultural Sciences. From a humble beginning of 180 students, the institution has rapidly grown to 8491 students and 452 faculty representing 18 academic departments. </p>
+    </div>
+
+    <div class="image1">
+        <h2>CSE</h2>
+    </div>
+    <div class="image2">
+        <h2>LIBRARY</h2>
+    </div>
+    <div class="image3">
+       <h2>BIOTECH</h2>
+    </div>
+
+    <div class="campus">
+        <h2>Campus Life</h2>
+        <p>Karunya is a residential University. Students are housed in thirteen different, well-furnished hostels with all the necessary facilities provided within the campus. Students need not look far for any amenity that they may require during their stay on campus. From a hospital to a bank, from dine-outs to utility stores, from Xerox shops to photo studios, you name it we have it on campus!</p>
+    </div> 
+    <div class="image4"></div> 
+    
+    <div class="image5"> 
+        <div class="form">
+            <h1>Sign In</h1>
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username/Email/Phone Number">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password">
+            <input type="submit" value="Sign In">
+        </div>
+    </div> 
+
+    <div class="drone">
+        <h2>Drone Technology for Agricultural Mission</h2>
+        <p>Agriculture being the backbone of Indian economy, it has to be supported with emerging tools and one such tool is drone technology. Drones are being used for GIS mapping and other related works, having a potential to solve several problems in Agriculture. KITS has made it a mission to develop Drones for scouting lands and crops, inspecting weeds, monitoring and management of crops and monitoring and managing the grazing areas and health of livestock.</p>
+    </div>
+    
+</body>
+</html>
+* {
+    margin: 0px;
+}
+
+h1 {
+    text-align:center;
+    background-color: blue;
+    color: white;
+}
+
+.banner{
+    background-image: url('karunya.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid white;
+    width:100%;
+    height:800px;
+}
+
+.info{
+    text-align: justify;
+    background-color: bisque;
+}
+.info h3{
+    text-align: center;
+}
+.info p{
+    padding: 30px;
+}
+
+.image1{
+    float: left;
+    background-image: url('csedept.jpeg');
+    background-repeat: no-repeat;
+    width:33%;
+    height:300px;
+    background-size: cover;
+}
+.image2{
+    float: left;
+    background-image: url('library.jpeg');
+    background-repeat: no-repeat;
+    width:33%;
+    height:300px;
+    position: relative;
+    background-size: cover;
+}
+.image3{
+    float: left;
+    background-image: url('biotech.jpeg');
+    background-repeat: no-repeat;
+    width:33%;
+    height:300px;
+    background-size: cover;
+}
+.image1 h2{
+    opacity: 0.5;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.image2 h2{
+    opacity: 0.5;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    background-color: black;
+    color: white;
+}
+.image3 h2{
+    opacity: 0.5;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.campus{
+    float: left;
+    text-align: justify;
+    background-color: bisque;
+    width: 50%;
+}
+.campus h2{
+    text-align: left;
+    padding: 30px;
+}
+.campus p{
+    padding: 30px;
+}
+.image4{
+    float: left;
+    background-image: url('student.jpeg');
+    background-repeat: no-repeat;
+    width:50%;
+    height:255px;
+    background-size: cover;
+}
+
+
+.form {
+    padding: 20px;
+    width:50%;
+    height:200px;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    position:absolute;
+    top: 40px;
+    left: 110px;
+}
+.form h1{
+    text-align:center;
+    color: black;
+    background-color: white;
+}
+input,label {
+    display: block;
+    width: 100%;
+}
+input[type=submit] {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input[type=text]{
+    border: none;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+input[type=password]{
+    border: none;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+input[type=text]:focus{
+    background-color: white;
+    outline: 1px solid blue;
+}
+input[type=password]:focus{
+    background-color: white;
+    outline: 1px solid blue;
+}
+.image5{
+    float: left;
+    background-image: url('grass.jpeg');
+    background-repeat: no-repeat;
+    width: 50%;
+    height:300px;
+    position: relative;
+    background-size: cover;
+}
+
+.drone{
+    float: left;
+    text-align: justify;
+    background-color: bisque;
+    width: 50%;
+    height: 300px;
+}
+.drone h2{
+    text-align: left;
+    padding: 30px;
+}
+.drone p{
+    padding: 30px;
+}
